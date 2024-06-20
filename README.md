@@ -22,7 +22,7 @@ The Personal Financial Stock Analyzer is a web application that helps users anal
 
 ## Detailed Methodology 
 
-"https://github.com/sowmyakuruba20/NVIDIAGenAI_Personal_Finance_Analyst/assets/131414180/43d1348b-4dad-4d90-a6e7-2c22aebe6487"
+https://github.com/sowmyakuruba20/NVIDIAGenAI_Personal_Finance_Analyst/assets/131414180/43d1348b-4dad-4d90-a6e7-2c22aebe6487
 
 ## Desired and Required Libraries
 
