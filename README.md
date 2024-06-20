@@ -20,9 +20,9 @@ The Personal Financial Stock Analyzer is a web application that helps users anal
 - **BeautifulSoup**: For web scraping recent news articles.
 - **Langchain and NVIDIA AI Endpoints**: For integrating the large language model (meta/llama3-8b-instruct) and generating text analysis.
 
-## Detailed Methodology 
+## Detailed Methodology
 
-https://github.com/sowmyakuruba20/NVIDIAGenAI_Personal_Finance_Analyst/assets/131414180/43d1348b-4dad-4d90-a6e7-2c22aebe6487
+![Detailed Methodology](https://github.com/sowmyakuruba20/NVIDIAGenAI_Personal_Finance_Analyst/assets/131414180/43d1348b-4dad-4d90-a6e7-2c22aebe6487)
 
 ## Desired and Required Libraries
 
