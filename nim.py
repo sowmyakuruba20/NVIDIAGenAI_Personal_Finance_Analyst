@@ -11,6 +11,11 @@ from langchain_core.output_parsers import StrOutputParser
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_nvidia_ai_endpoints import ChatNVIDIA
 import langchain.globals
+from nemoguardrails import LLMRails, RailsConfig
+
+# Initialize Nemo Guardrails
+# guardrails_config = RailsConfig.from_path("guardrails_config.yaml")
+# LLMRails(guardrails_config)
 
 # Set the verbose setting
 langchain.globals.set_verbose(True)

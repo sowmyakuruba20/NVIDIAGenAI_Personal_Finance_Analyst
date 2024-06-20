@@ -1,26 +1,32 @@
 models:
-  default:
-    model: meta/llama3-8b-instruct
-    base_url: https://integrate.api.nvidia.com/v1
-    api_key: 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
+  - type: main
+    engine: openai
+    model: gpt-3.5-turbo-instruct
 
-guards:
-  finance_related:
-    check:
-      - query_type: context
-        include:
+rails:
+  # Input rails are invoked when new input from the user is received.
+  input:
+    flows:
+      - restrict domain to finance
+      - mask sensitive data on input
+
+  # Output rails are triggered after a bot message has been generated.
+  output:
+    flows:
+      - self check facts
+      - self check hallucination
+      - activefence moderation
+      - gotitai rag truthcheck
+
+  config:
+    # Configure the types of entities that should be masked on user input.
+    sensitive_data_detection:
+      input:
+        entities:
+          - PERSON
+          - EMAIL_ADDRESS
+    # Define the domain restriction for input queries.
+    domain_restriction:
+      input:
+        allowed_domains:
           - finance
-          - stock
-          - investment
-          - trading
-          - portfolio
-        exclude:
-          - coronavirus
-          - covid-19
-          - pandemic
-
-responses:
-  default:
-    - I'm sorry, but I can only provide information related to finance and stocks.
-  finance_related:
-    - Proceed
