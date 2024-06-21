@@ -99,7 +99,7 @@ class DataFetcher:
 class Analyzer:
     def __init__(self):
         self.prompt = ChatPromptTemplate.from_messages([("system", system_prompt), ("user", "{input}")])
-        self.llm = ChatNVIDIA(model="meta/llama3-8b-instruct", base_url="https://integrate.api.nvidia.com/v1", api_key=os.getenv("NVIDIA_API_KEY"))
+        self.llm = ChatNVIDIA(model="meta/llama3-70b-instruct", base_url="https://integrate.api.nvidia.com/v1", api_key=os.getenv("NVIDIA_API_KEY"))
         self.chain = self.prompt | self.llm | StrOutputParser()
 
     def analyze_stock(self, ticker, stock_data, financial_statements, news):
