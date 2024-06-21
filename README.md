@@ -1,4 +1,4 @@
-# Personal Financial Stock Analyzer 📈
+# Portfolio Stock Analyzer 📈
 
 ## Project Overview
 
