@@ -38,6 +38,8 @@ Here are the versions of the libraries used in this project:
 - `langchain-nvidia-ai-endpoints==0.2.1`
 - `dotenv==1.0.1`
 
+Hardware NVIDIA RTX 3080
+
 ## Setup and Installation
 
 ### Prerequisites
@@ -92,7 +94,7 @@ streamlit run nim.py
 ## Contributing
 If you want to contribute to this project, feel free to create a pull request. Please ensure that your code adheres to the existing style and includes relevant tests.
 
-## ContributingReferences
+## References
 - Yahoo Finance API
 - Streamlit Documentation
 - Plotly Documentation
