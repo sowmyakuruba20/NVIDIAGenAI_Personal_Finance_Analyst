@@ -103,5 +103,5 @@ If you want to contribute to this project, feel free to create a pull request. P
 - NVIDIA AI Endpoints
 
 ## Video Demonstration
-Here is a video demonstration of the application in action:
+Here is a video demonstration of the application in action: https://www.youtube.com/watch?v=bAwKjAdzjSA
 
