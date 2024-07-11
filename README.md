@@ -1,5 +1,5 @@
 # Portfolio Stock Analyzer 📈
-
+![screenshot](nvidia.png)
 ## Project Overview
 
 The Personal Financial Stock Analyzer is a web application that helps users analyze their stock portfolios from stock websites like Fidelity, Robinhood. It uses real-time financial data from Yahoo Finance, generates detailed stock analysis, and provides investment recommendations. The application also includes a chatbot feature that answers finance-related questions using a large language model.
